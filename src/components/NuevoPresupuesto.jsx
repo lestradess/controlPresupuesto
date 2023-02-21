@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Mensaje from './Mensaje';
+import { formatearCantidad } from '../helpers';
+
 
 
 const NuevoPresupuesto = ({ presupuesto, setPresupuesto, setIsValidPresupuesto }) => {
