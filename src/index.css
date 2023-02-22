@@ -155,12 +155,11 @@ header h1 {
 }
 .contenedor-presupuesto {
     margin-top: -5rem;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     transform: translateY(5rem);
+   
 }
 .dos-columnas {
     flex-direction: column;
@@ -188,12 +187,12 @@ header h1 {
 }
 
 .contenedor-presupuesto svg {
-    width: 25rem;
+    width: 15rem;
 }
 
-.contenido-presupuesto {
+/* .contenido-presupuesto {
     width: 100%;
-}
+} */
 .contenido-presupuesto p {
     font-weight: 400;
     color: var(--gris-oscuro);
